@@ -1,0 +1,4 @@
+host: bandit.labs.overthewire.org
+
+account: ssh bandit3@bandit.labs.overthewire.org -p 2220
+password: UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK

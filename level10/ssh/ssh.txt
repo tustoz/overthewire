@@ -1,0 +1,6 @@
+host: bandit.labs.overthewire.org
+command:
+sort data.txt | uniq -u
+
+account: ssh bandit10@bandit.labs.overthewire.org -p 2220
+password: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR

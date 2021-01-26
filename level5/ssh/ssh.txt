@@ -1,0 +1,7 @@
+host: bandit.labs.overthewire.org
+command:
+find inhere -size 1033c -print
+cat inhere/maybehere07/.file2
+
+account: ssh bandit5@bandit.labs.overthewire.org -p 2220
+password: koReBOKuIDDepwhWk7jZC0RTdopnAYKh

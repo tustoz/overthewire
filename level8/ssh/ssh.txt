@@ -1,0 +1,6 @@
+host: bandit.labs.overthewire.org
+command:
+grep 'millionth' data.txt
+
+account: ssh bandit8@bandit.labs.overthewire.org -p 2220
+password: cvX2JJa4CFALtqS87jk27qwqGhBM9plV
