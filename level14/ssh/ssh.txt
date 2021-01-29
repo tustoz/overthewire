@@ -1,0 +1,29 @@
+host: bandit.labs.overthewire.org
+
+command:
+mkdir /tmp/blueberry/
+cp data.txt /tmp/blueberry/
+cd /tmp/blueberry/
+mv data.txt blueberry.txt
+xxd -r blueberry.txt > blueberry
+file blueberry
+mv blueberry blueberry.gz
+gunzip blueberry.gz
+file blueberry
+bzip2 -d blueberry
+file blueberry.out
+mv blueberry.out blueberry.gz
+gunzip blueberry.gz
+tar xvf blueberry
+file data5.bin
+tar xvf data5.bin
+bzip2 -d data6.bin
+file data6.bin.out
+tar xvf data6.bin.out
+file data8.bin
+mv data8.bin data8.gz
+gunzip data8.gz
+cat data8
+
+account: ssh bandit13@bandit.labs.overthewire.org -p 2220
+password: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL

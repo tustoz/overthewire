@@ -1,0 +1,6 @@
+host: bandit.labs.overthewire.org
+command:
+echo "Gur cnffjbeq vf 5Gr8L4qetPEsPk8htqjhRK8XSP6x2RHh" | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
+
+account: ssh bandit12@bandit.labs.overthewire.org -p 2220
+password: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu

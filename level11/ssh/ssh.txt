@@ -1,0 +1,6 @@
+host: bandit.labs.overthewire.org
+command:
+strings data.txt | grep '^='
+
+account: ssh bandit10@bandit.labs.overthewire.org -p 2220
+password: truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
