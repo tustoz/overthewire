@@ -1,0 +1,7 @@
+host: bandit.labs.overthewire.org
+
+command:
+diff passwords.old passwords.new
+
+account: ssh bandit20@bandit.labs.overthewire.org -p 2220
+password: GbKksEFF4yrVs6il55v6gwY5aVje5f0j

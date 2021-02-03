@@ -1,7 +1,7 @@
 host: bandit.labs.overthewire.org
 
 command:
-echo "xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn" | nc localhost 30000
+diff passwords.old passwords.new
 
 account: ssh bandit17@bandit.labs.overthewire.org -p 2220
-password: xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
+password: kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd

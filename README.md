@@ -1268,5 +1268,5 @@ GNU-style usage: tar {--catenate|--concatenate} [OPTIONS] ARCHIVE ARCHIVE</td>
 
 </tbody>
 </table>
-<h3></h3>
+<h3>Helpful Reading Material</h3>
 <p><a href="https://en.wikipedia.org/wiki/Base64" target="_blank">Base64 on Wikipedia</p>

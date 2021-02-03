@@ -1,0 +1,11 @@
+host: bandit.labs.overthewire.org
+
+command:
+ls -l
+./suconnect
+nc -lp 6000
+./suconnect 6000
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+
+account: ssh bandit21@bandit.labs.overthewire.org -p 2220
+password: gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr

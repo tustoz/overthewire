@@ -1,0 +1,8 @@
+host: bandit.labs.overthewire.org
+
+command:
+ssh -t bandit18@bandit.labs.overthewire.org -p 2220 /bin/sh
+cat readme
+
+account: ssh bandit18@bandit.labs.overthewire.org -p 2220
+password: IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
